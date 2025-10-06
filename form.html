@@ -1,0 +1,113 @@
+<form>
+
+<fieldset>
+<open.html>
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <link rel="stylesheet"
+href="form stylesheet.css"> </head> 
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Halloween Party </title>
+</head>
+<body>
+
+<P></P>
+<nav>
+    <p><a href="p1.html"> Go back to Home </a></p>
+</nav>
+<fieldset>
+<h2> College Halloween Party </h2>
+<hr>
+<p>Please fill out the form below to RSVP for the Halloween Party!</p>
+<form>
+<fieldset action="/register>"method="POST">
+    <p></p>
+    <label>First Name:
+    <input type="text" name="firstname">
+    </label>
+    <p>  </p>
+    <label>Last Name:
+    <input type="text" name="lastname">
+    <p></p>
+    </label>
+</fieldset>
+    <p></p>
+<fieldset>
+    <p></p>
+   <set action="/register>"method="POST">
+   <label>Email:
+    <input type="email" name="email">
+    </label>
+    <p></p>
+    <label>Phone:
+    <input type="text" name="phone">
+    </label>
+    <p></p>
+</label>
+</fieldset>
+<p></p>
+ <b><legend>Are you planning to participate in the costume contest?</legend></b>
+ <label>
+    <p></p> 
+ <input type="checkbox" name="contact" value="yes">
+ yes
+ <p></p>
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="no">
+ no
+ <p></p>
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="maybe">
+    maybe
+ <p></p>
+ </label>
+ 
+<p></p>
+<label for="day">
+<option value=""><option style="font-weight: bold;">what cake flavor do you want?</option>
+<br>
+<select name="flavor" id="flavor">
+    <option value="chocolate">Chocolate</option> 
+    <option value="vanilla">Vanilla</option>
+    <option value="red velvet">Red Velvet</option>  
+    <option value="lemon">Lemon</option> 
+    <option value="carrot">Carrot</option>  
+    <option value="confetti">confetti</option>
+    <option value="strawberry">Strawberry</option>
+    </select>
+<p></p>
+<form action="/upload-image" method="POST"
+enctype="multipart/form-data">
+<fieldset>
+ <legend>Upload a funny image for potential prize</legend>
+ <label>
+Profile Picture:
+<input type="file" name="profile_picture"
+ accept="image/jpeg,image/png,image/gif"
+ required>
+ </label>
+ <small>Max file size: 5MB. Accepted formats: JPG, PNG</small>
+ </fieldset>
+ </form>
+ </select>
+</label>
+
+<p></p>
+<button type="submit"
+formaction="/submit">
+submit
+</button>
+<p></p>
+</fieldset>
+<p></p>
+<button type="reset"> Reset Form
+</button>
+</form>
+</body>
+</html>
