@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> My Portfolio - Liam Mullin </title>
+</head>
+<body>
+    <hr>
+<h2> About Me </h2>
+
+ <p> I am currently taking a course in programming </p>
+<ul><li> Math</li>
+  <li>Science</li>
+   <li>English<li>
+   <li> History<li>
+</ul>
+ <table>
+ <thead>
+ <tr>
+ <th>Column 1</th>
+ <th>Column 2</th>
+ <th>Column 3</th>
+ <th>Column 4</th>
+ <th>Column 5</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>3</td>
+ <td>6</td>
+ <td>9</td>
+ <td>12</td>
+ <td>15</td>
+ </tr>
+ <tr>
+ <td>78</td>
+ <td>81</td>
+ <td>84</td>
+ <td>87</td>
+ <td>90</td>
+ </tr>
+ <tr>
+ <td>93</td>
+ <td>96</td>
+ <td>99</td>
+ <td></td>
+ <td></td>
+ </tr>
+ </tbody>
+ </table>
+
+
+<h2><strong><mark><i><b>IM BATMAN<b><i><mark><strong><h2>
+
+    <img src=https://www.google.com/imgres?q=batman&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fmarvel_dc%2Fimages%2F0%2F08%2FBatman_Vol_3_131_Textless_Fabok_Variant.jpg%2Frevision%2Flatest%2Fthumbnail%2Fwidth%2F360%2Fheight%2F360%3Fcb%3D20230106222502&imgrefurl=https%3A%2F%2Fdc.fandom.com%2Fwiki%2FBatman_(Bruce_Wayne)&docid=Tgx04dblepqXkM&tbnid=_b8_zDKvD3T-qM&vet=12ahUKEwj05qysluCPAxXdCTQIHWaqPLUQM3oECBIQAA..i&w=237&h=360&hcb=2&ved=2ahUKEwj05qysluCPAxXdCTQIHWaqPLUQM3oECBIQAA>
+
+    <form action="submit>"method="POST">
+   <label>Username:
+    <input type="text" name="username">
+    </label>
+    <label>Password:
+    <input type="password" name="password"
+    name="password">
+    </label>
+<p></p>
+<p></p>
+<p></p>
+</form>
+<fieldset>
+ <legend>Preferred Contact Method:</legend>
+ <label>
+ <input type="checkbox" name="contact" value="email">
+ Email
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="phone">
+ Phone
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="fax">
+ Fax
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="text">
+ Text
+ </label>
+ </fieldset>
+<label for="country">
+<option value="">Choose a country</option>
+<select name="country" id="country">
+ <option value="usa">United States</option>
+ <option value="canada">Canada</option>
+ <option value="uk">United Kingdom</option>
+ <option value="australia">Australia</option>
+ <option value="other">Other</option>
+ </select>
+</label>
+<p></p>
+<label for="message">
+Message:
+</label>
+<textarea id="message"
+name="message" rows="4" cols="50">
+</textarea>
+<form action="/upload-image" method="POST"
+enctype="multipart/form-data">
+<fieldset>
+ <legend>Upload Profile Picture</legend>
+ <label>
+Profile Picture:
+<input type="file" name="profile_picture"
+ accept="image/jpeg,image/png,image/gif"
+ required>
+ </label>
+ <small>Max file size: 5MB. Accepted formats: JPG, PNG</small>
+ </fieldset>
+ </form>
+<button type="submit"
+formaction="/login">
+login
+</button>
+
+<button type="submit"
+formaction="/register">
+register
+</button>
+
+<label>
+Name:
+<input type="text" placeholder="Enter your
+name" required maxlength="50">
+</label>
+<p></p>
+ <label>
+Email Address:
+<input type="email"
+placeholder="email@example.com" required>
+</label>
+<p></p>
+<label>
+    Postal Code:
+    <input type="text" pattern="[A-Za-z][0-9][A-Za-z]
+[0-9][A-Za-z][0-9]"
+placeholder="A1A 1A1"
+title="Format: A1A 1A1">
+</label>
+<p></p>
+
+</form>
+</body>
+</html>
